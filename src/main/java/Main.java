@@ -5,7 +5,7 @@ import com.googlecode.lanterna.terminal.Terminal;
 
 import java.util.Random;
 
-
+///TEST TEST
 public class Main {
 
     public static void main(String[] args) throws Exception {
