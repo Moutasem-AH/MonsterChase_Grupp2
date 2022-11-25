@@ -9,11 +9,14 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        // Ted testar
+
         DefaultTerminalFactory terminalFactory = new DefaultTerminalFactory();
         Terminal terminal = terminalFactory.createTerminal();
         Position[] walls = {new Position(5, 7), new Position(10, 4), new Position(12, 12)};
         Position[] longWall = new Position[10];
         Position[] longWall2 = new Position[10];
+
 
         boolean continueReadingInput = true;
         terminal.setCursorVisible(false);
