@@ -110,17 +110,17 @@ public class Main {
                 int monsterOldY = m.position.y;
 
                 if (m.position.x > x) {
-                    m.position.x--;
+                    m.position.x -= 1;
 
                 } else if (m.position.x < x) {
-                    m.position.x++;
+                    m.position.x += 1;
 
                 }
                 if (m.position.y > y) {
-                    m.position.y--;
+                    m.position.y -= 1;
 
                 } else if (m.position.y < y) {
-                    m.position.y++;
+                    m.position.y += 1;
                 }
 
                 for (Position p : walls) {
